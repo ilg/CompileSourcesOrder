@@ -17,3 +17,8 @@ Foo.swift:14:15: error: 'Bar' is not a member type of 'Foo'
 extension Foo.Bar {
           ~~~ ^
 ```
+
+## Reporting
+
+This appears to be the relevant Swift issue:
+- https://bugs.swift.org/browse/SR-631
